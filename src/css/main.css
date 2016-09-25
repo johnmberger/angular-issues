@@ -1,0 +1,32 @@
+a, a small {
+  color: slategrey;
+}
+.all-issues {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.individual-issue div {
+  background: white;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+body {
+  background: lightgrey;
+}
+.title {
+  font-weight: bold;
+}
+div {
+  overflow: scroll;
+}
+.open {
+  color: green;
+}
+.closed {
+  color: red;
+}
+.no-results {
+  display: none;
+}
